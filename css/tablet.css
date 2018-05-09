@@ -1,0 +1,683 @@
+        @charset "utf-8";
+        * {
+            box-sizing: content-box;
+            /* outline: rgb(0, 0, 0) dotted thick; */
+        }
+        
+        body {
+            background-color: #0d9890;
+            font-family: Noto Sans CJK TC;
+        }
+        
+        @media screen and (min-width:600px) and (max-width:999px) {
+            h1 {
+                font-size: 56px;
+                font-weight: 900;
+            }
+            h2 {
+                font-size: 48px;
+                font-weight: 900;
+            }
+            h3 {
+                font-size: 38px;
+                font-weight: 500;
+            }
+            h4 {
+                font-size: 28px;
+                font-weight: 400;
+            }
+            h5 {
+                font-size: 20px;
+                font-weight: 400;
+            }
+            h6 {
+                font-size: 20px;
+                font-weight: 300;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+        
+        @media screen and (min-width:600px) and (max-width:999px) {
+            .container {
+                /* max-width: 1366px; */
+                width: 100%;
+                background-color: #daecea;
+                margin: 0 auto;
+            }
+            .mainslogan {
+                padding: 0 5%;
+                margin-top: 50px;
+            }
+            .logoarea {
+                width: 100%;
+                background-color: #16928a;
+            }
+            div.logobg {
+                width: 179px;
+                height: 70px;
+                background-image: url('../img/section1/bg_land_tablet.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .logoarea>img {}
+            .logo {
+                left: 3%;
+                width: 15%;
+                top: 20px;
+            }
+            .logo img {
+                width: 100%;
+            }
+            .section1 {
+                background-size: contain;
+                padding-bottom: 50px;
+                height: auto;
+            }
+            .mainslogan {
+                width: 90%;
+            }
+            .mainslogan div {
+                float: right;
+            }
+            .mainslogan .img {
+                position: relative;
+                width: 40%;
+                text-align: right;
+                float: left;
+            }
+            .mainslogan .img img {
+                width: 80%;
+                max-width: 291px;
+            }
+            .slogantext {
+                width: 60%;
+                text-align: left;
+                padding-top: 25px;
+            }
+            .slogantext span {
+                font-size: 40px
+            }
+        }
+        /* 內容 */
+        /* 第二區 */
+        
+        @media screen and (min-width:600px) and (max-width:999px) {
+            .section2 {
+                height: auto;
+            }
+            .scene,
+            .appeal {
+                width: 100%;
+            }
+            .section2 .triangle {
+                clip-path: none;
+                -webkit-clip-path: none;
+            }
+            .section2 .scene {
+                float: left;
+                width: 100%;
+                padding-right: 0;
+                position: relative;
+                z-index: 1;
+                margin-top: -80px;
+            }
+            .section2 .appeal {
+                float: right;
+                width: 90%;
+                padding: 30px 0 20px 10%;
+                background-color: #f4c750;
+                z-index: 2;
+                position: relative;
+                margin-top: 40px;
+            }
+            /* section3 */
+            .section3 {
+                height: auto;
+            }
+            .section3 .appeal {
+                width: 90%;
+                padding: 40px 0 20px 10%;
+            }
+            .section3 .scene {
+                width: 100%;
+                position: relative;
+                z-index: 2;
+                padding-top: 20px;
+                text-align: center;
+            }
+            .section3 .text {
+                width: 85%;
+            }
+            .slogan {
+                z-index: 1;
+                position: relative;
+            }
+            .slogan h2 {
+                font-size: 38px;
+            }
+            /* section4 */
+            .section4 {
+                height: auto;
+                background-color: #0d9890;
+            }
+            .product_title {
+                padding-left: 10%;
+                top: 20px;
+                position: relative;
+                padding-bottom: 40px;
+                left: 0;
+            }
+            .section4 .scene {
+                clip-path: none;
+                width: 90%;
+                height: auto;
+                padding-left: 10%;
+                padding-top: 0;
+            }
+            .section4 .appeal {
+                padding-top: 30px;
+                width: 100%;
+                padding-left: 0%;
+                float: left;
+                color: #fff;
+            }
+            .feature_area {
+                width: 75%;
+                margin: 10px auto;
+            }
+            .feature img {
+                width: 75%;
+            }
+            .section4 .product {
+                padding-top: 0px;
+            }
+            /* section5 */
+            .section5 .scene {
+                width: 100%;
+                text-align: center;
+                padding-left: 0;
+                padding-top: 20px;
+            }
+            .section5 .scene img {
+                width: 100%;
+            }
+            .section5 .scene span {
+                font-size: 14px;
+            }
+            .section5 .appeal p {
+                font-size: 18px;
+                /* text-align: left; */
+            }
+            .section5 .appeal {
+                width: 140px;
+                position: absolute;
+                float: none;
+                right: 5%;
+                bottom: 180px;
+                height: 120px;
+                text-align: center;
+                padding: 20px 10px 20px 10px;
+            }
+            .section5 .appeal h2 {
+                font-size: 36px;
+                padding-top: 10px;
+            }
+            /* section6 */
+            .section6 .slogan {
+                display: none;
+            }
+            .appeal1,
+            .appeal2 {
+                height: auto;
+            }
+            .filter_img {
+                width: 100%;
+            }
+            .filter_img img {
+                max-width: 107px;
+                width: 30%;
+                display: inline-block;
+            }
+            .section6 .mask {
+                height: 360px;
+            }
+            /* section7,9,11 */
+            .section7,
+            .section8,
+            .section9,
+            .section10,
+            .section11 {
+                background-size: 50%;
+            }
+            .section7 .title,
+            .section7 .text,
+            .section9 .title,
+            .section9 .text,
+            .section11 .title,
+            .section11 .text {
+                padding: 30px 0 0 15%;
+            }
+            .section7 .title p,
+            .section9 .title p,
+            .section11 .title p {
+                display: none;
+            }
+            /* 濾芯功能 開始*/
+            .section7 .title h3::before,
+            .section8 .title h3::before,
+            .section9 .title h3::before,
+            .section10 .title h3::before,
+            .section11 .title h3:before {
+                content: "粗濾雜質";
+                width: 100px;
+                background-color: #6a3a2e;
+                color: #ffffff;
+                border-radius: 10px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                display: block;
+                position: absolute;
+                top: -10px;
+                left: 15%;
+                font-size: 18px;
+            }
+            .section8 .title h3::before {
+                content: "植萃除味";
+                background-color: #187c70;
+                left: 8%;
+            }
+            .section9 .title h3::before {
+                content: "植萃除味";
+                background-color: #5075bc;
+            }
+            .section10 .title h3::before {
+                content: "奈米精濾";
+                background-color: #5075bc;
+                left: 8%;
+            }
+            .section11 .title h3::before {
+                content: "調整口感";
+                background-color: #59882f;
+            }
+            /* 濾心功能結束 */
+            .section7 .text p,
+            .section9 .text p,
+            .section11 .text p {
+                width: 80%;
+            }
+            .section7 .text,
+            .section9 .text,
+            .section11 .text {
+                padding-top: 10px;
+            }
+            .section7 .filter img,
+            .section9 .filter img,
+            .section11 .filter img {
+                width: 70%;
+            }
+            /* section8,10 */
+            .section8 .title p,
+            .section10 .title p {
+                display: none;
+            }
+            .section8 .text,
+            .section10 .text {
+                padding-top: 15px;
+            }
+            .section8 .text p,
+            .section10 .text p {
+                width: 80%;
+            }
+            .section8 .filter img,
+            .section10 .filter img {
+                width: 70%;
+            }
+            .section8 .title,
+            .section10 .title {
+                padding-top: 30px;
+            }
+            .section7 .title h3,
+            .section8 .title h3,
+            .section9 .title h3,
+            .section10 .title h3,
+            .section11 .title h3 {
+                padding-right: 0%;
+            }
+            /* section12 */
+            .section12 {
+                padding-bottom: 30px;
+            }
+            .section12 .scene {
+                padding-top: 40px;
+            }
+            .section12 .appeal {
+                padding-top: 40px;
+            }
+            .section12 .appeal p {
+                padding-top: 15px;
+            }
+            .section12 .text {
+                width: 90%;
+                line-height: 1.5;
+            }
+            /* section13 */
+            .section13 .scene {
+                margin-top: -200px;
+                z-index: 1;
+                position: relative;
+                text-align: center;
+            }
+            .section13 .appeal {
+                position: relative;
+                z-index: 2;
+                padding-left: 15%;
+                width: 85%;
+            }
+            .certificate {
+                width: 80%;
+                padding-top: 15px;
+            }
+            .section13 .slogan {
+                padding-top: 10px;
+                height: 44px;
+                line-height: 44px;
+            }
+            .section13 .slogan span {
+                display: block;
+                background-color: #0d9890;
+                padding-bottom: 10px;
+            }
+            /* section14 */
+            .section14 .title span {
+                display: inline-block;
+                font-weight: 900;
+            }
+            .section14 {
+                padding-top: 30px;
+                height: auto;
+            }
+            .section14 .appeal {
+                padding-bottom: 30px;
+            }
+            .section14 .feature {
+                float: none;
+                margin: 0 auto;
+            }
+            .icon img {
+                width: 80%;
+                padding: 15px 1% 0 1%;
+            }
+            .linetext {
+                width: 95%;
+            }
+            /* section15,16,18 */
+            .section15 .appeal,
+            .section16 .appeal,
+            .section17 .appeal,
+            .section18 .appeal {
+                padding: 30px 0 0 10%;
+                width: 90%;
+            }
+            .section15 .scene,
+            .section16 .scene,
+            .section18 .scene {
+                width: 100%;
+                text-align: center;
+            }
+            .section15 .scene img {
+                width: 80%;
+            }
+            .section16 .scene img {
+                width: 80%;
+                max-width: 842px;
+            }
+            .section18 .scene img {
+                width: 80%;
+                max-width: 723px;
+            }
+            .section17 .scene {
+                width: 100%;
+                padding-top: 30px;
+                text-align: center;
+                padding-left: 0;
+            }
+            .section17 .scene img {
+                width: 60%;
+                max-width: 584px;
+            }
+            .section16 .text p,
+            .section18 .text p {
+                width: 80%;
+            }
+            .section19 .appeal,
+            .section21 .appeal {
+                padding-top: 30px;
+            }
+            .section19 .text,
+            .section21 .text {
+                width: 80%;
+            }
+            .section19 .title span {
+                display: inline-block;
+                font-weight: 900;
+            }
+            .upgrate p {
+                padding-top: 10px;
+                font-size: 14px;
+                text-align: left;
+                padding-left: 5%;
+            }
+            /* section20 */
+            .section20 .appeal {
+                width: 80%;
+                float: none;
+                position: relative;
+                margin: 0 auto;
+                z-index: 2;
+                padding-top: 30px;
+                left: 0;
+            }
+            .section20 .scene {
+                display: inline-block;
+                /* padding-top: 93px; */
+                z-index: 1;
+                position: relative;
+                margin-top: -380px;
+                width: 100%;
+                left: 0;
+            }
+            .pricebox {
+                width: 90%;
+                margin: 10px auto;
+                border-radius: 20px;
+                padding: 20px 5%;
+            }
+            .price {
+                display: none;
+            }
+            .math {
+                display: none;
+            }
+            .pricetablet {
+                content: url('../img/section20/tablet2.svg');
+                width: 100%;
+            }
+            /* section21 */
+            .section21 {
+                background-image: url('../img/section21/bg.jpg');
+                height: auto;
+                background-size: cover;
+            }
+            .featurebox {
+                width: 90%;
+            }
+            .section21 .appeal {
+                top: 0;
+                transform: translateY(0);
+                padding-top: 50px;
+            }
+            .button {
+                width: 40%;
+                background-color: #16928a;
+                color: #fff;
+                text-align: center;
+                margin: 20px auto;
+                border-radius: 10px;
+                padding: 10px 0;
+                margin-top: 80px;
+            }
+            .section21 .text {
+                padding-bottom: 20px;
+            }
+            /* section22 */
+            .section22 .spec1 {
+                padding-top: 42px;
+                width: 80%;
+            }
+            .section22 .prodcut {
+                width: 100%;
+            }
+            .section22 .infobox {
+                width: 80%;
+            }
+            .section22 .spec4,
+            .section22 .spec5 {
+                width: 80%;
+            }
+            .filterbox .effect {
+                height: auto;
+            }
+        }
+        /* section19,21*/
+        /* section21 */
+        
+        .section22 .content {
+            padding: 40px 5% 40px 5%;
+        }
+        
+        .section22 .spec1 p,
+        .section22 h5 {
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        
+        .section22 h5 {
+            margin-bottom: 5px;
+        }
+        
+        .section22 p {
+            line-height: 1.5;
+        }
+        
+        .section22 .spec1 ul,
+        .section22 .spec2 ul {
+            margin: 10px 0;
+            padding-left: 3%;
+        }
+        
+        .section22 .spec1 li,
+        .section22 .spec2 li {
+            margin: 3px 0;
+            line-height: 1.5;
+        }
+        
+        .section22 .spec2,
+        .section22 .spec4,
+        .section22 .spec5 {
+            margin-top: 40px;
+        }
+        
+        .spec2 .title,
+        .spec3 .title {
+            margin-bottom: 20px;
+            position: relative;
+            border-bottom: 4px #16928a solid;
+            padding-bottom: 5px;
+        }
+        
+        .spec3 .title {
+            width: 30%;
+        }
+        
+        .spec2 .title p {
+            font-weight: 500;
+        }
+        
+        .section22 .spec2>.prodcut,
+        .section22 .spec2>.infobox {
+            float: left;
+        }
+        
+        .section22 .prodcut img {
+            max-width: 378px;
+        }
+        
+        .section22 .column,
+        .section22 .info:nth-child(3) {
+            float: left;
+            width: 50%;
+        }
+        
+        .column .info:nth-child(2) {
+            margin-top: 20px;
+        }
+        
+        .section22 .spec3 {
+            margin-top: 40px;
+        }
+        
+        .section22 .spec3>.title p {
+            font-weight: 500;
+        }
+        
+        .filterbox {
+            background-color: #dee7e6;
+            padding: 30px 0;
+            border-radius: 20px;
+        }
+        
+        .filterbox .series {
+            padding-left: 5%;
+        }
+        
+        .series1to3 {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .series1to3>.filter1,
+        .series1to3>.filter2,
+        .series1to3>.filter3,
+        .series4to5>.filter4,
+        .series4to5>.filter5 {
+            float: left;
+            width: 23.33333%;
+            padding: 0 5%
+        }
+        
+        .filterpic img {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .filterpic {
+            margin-bottom: 10px;
+            border-bottom: 4px #16928a solid;
+            padding-bottom: 5px;
+        }
+        
+        .filterreplacetime,
+        .replaceamount {
+            padding: 5px 0 15px 0;
+            border-bottom: 2px #16928a solid;
+        }
+        
+        .filterreplacetime span,
+        .replaceamount span,
+        .effect span {
+            font-weight: 500;
+        }
