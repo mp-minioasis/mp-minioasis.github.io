@@ -4,10 +4,7 @@
             /* outline: rgb(0, 0, 0) dotted thick; */
         }
         
-        body {
-            background-color: #0d9890;
-            font-family: Noto Sans CJK TC;
-        }
+
         
         @media screen and (min-width:600px) and (max-width:999px) {
             h1 {
