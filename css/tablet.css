@@ -503,6 +503,22 @@
                 content: url('../img/section20/tablet2.svg');
                 width: 100%;
             }
+
+            /* section: 20 1; */
+            .video-container{
+                width: 100%;
+                padding-bottom: 62.5%;
+            }
+            .buynow{
+                width: 100%;
+            }
+            .buynow .button{
+                width: 30%;
+                padding: 3% 0;
+                font-size: 16px;
+            }
+            
+
             /* section21 */
             .section21 {
                 background-image: url('../img/section21/bg.jpg');
