@@ -1323,6 +1323,9 @@
         .button h3 {
             font-size: 24px;
         }
+        .button h3 a,button h3 a:hover,button h3 a:visited{
+            color: #ffffff;
+        }
         
         .section21 .appeal {
             position: relative;
