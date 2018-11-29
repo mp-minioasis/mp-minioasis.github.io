@@ -22,7 +22,17 @@
                 <!-- fb即時客服開始 -->
         <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '290275064930980',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
