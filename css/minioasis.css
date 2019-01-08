@@ -1262,6 +1262,10 @@
             width: 60%;
             padding: 5% 0;
         }
+        a.button {
+            display: block;
+            color: #ffffff;
+        }
 
         /* section21 */
         
