@@ -535,7 +535,7 @@
             }
             .button {
                 width: 40%;
-                background-color: #16928a;
+                background-color: #0e85a5;
                 color: #fff;
                 text-align: center;
                 margin: 20px auto;
@@ -575,8 +575,9 @@
             .filterbox .effect {
                 height: auto;
             }
-        }
-        /* section19,21*/
+
+
+         /* section19,21*/
         /* section21 */
         
         .section22 .content {
@@ -704,4 +705,25 @@
         .replaceamount span,
         .effect span {
             font-weight: 500;
+        }
+
+        /* section13的微程式部分 */
+        .section13 .mp .scene,.section13 .mp .appeal{
+            width: 100%;
+        }
+        .section13 .mp .appeal{
+            width: 85%;
+            padding-left: 15%;
+        }
+        .section13 .mp .scene{
+            margin-top: -40px;
+        }
+        /* fotter */
+        .mpfooter,.oasisfooter{
+            width: 100%;
+            margin: 30px 0;
+        }
+        .mpfooter::after{
+            display: none;
+        }
         }

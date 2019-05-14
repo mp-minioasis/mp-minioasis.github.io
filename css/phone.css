@@ -119,6 +119,7 @@
             .section2 .triangle {
                 clip-path: none;
                 -webkit-clip-path: none;
+                z-index: 1;
             }
             .section2 .scene {
                 margin-top: -30px;
@@ -634,7 +635,7 @@
             }
             .button {
                 width: 60%;
-                background-color: #16928a;
+                background-color: #0e85a5;
                 color: #fff;
                 text-align: center;
                 margin: 20px auto;
@@ -701,4 +702,48 @@
             .section22 .spec5 {
                 width: 100%;
             }
+
+            /* section13的微程式部分 */
+        .section13 .mp .scene,.section13 .mp .appeal{
+            width: 100%;
+        }
+        .section13 .mp .appeal{
+            width: 85%;
+            padding-left: 15%;
+        }
+        .section13 .mp .scene{
+            margin-top: -40px;
+        }
+        .section13 .mp .scene img{
+            max-width: 200px;
+        }
+        /* fotter */
+        .mpfooter,.oasisfooter{
+            width: 100%;
+            margin: 30px 0;
+        }
+        .mpfooter::after{
+            display: none;
+        }
+
+        .mplogo,.oasislogo,.co,.followarea{
+            width: 100%;
+        }
+      
+        .co p{
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .followarea .text{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .followicon {
+            text-align: center;
+        }
+        .oasislogo::after{
+            display: none;
+        }
+
         }

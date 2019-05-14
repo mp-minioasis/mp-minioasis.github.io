@@ -839,7 +839,38 @@
         .section13 {
             background-color: #fff;
         }
-        
+        .together{
+            padding: 20px 0;
+        }
+        .together h5,.together h3{
+            text-align: center;
+            padding: 5px 0;
+        }
+        .together h5 {
+            letter-spacing: 5px;
+        }
+        .section13 .mp{
+            background-image: url('../img/section13/bg.jpg');
+            background-size: cover;
+            padding: 20px 0 40px 0;
+        }
+        .section13 .mp .appeal{
+           float: right;
+           padding-left: 0;
+           padding-top: 30px;
+           width: 52%;
+           
+        }
+
+        .section13 .mp .scene{
+            width: 45%;
+            text-align: center;
+            padding: 50px 0;
+            
+        }
+        .section13 .mp .scene img{
+           display: inline-block;
+        }
         .section13 h2 {
             line-height: 1.2;
         }
@@ -1490,4 +1521,60 @@
         .filterbox .effect {
             height: 135px;
             padding-top: 5px;
+        }
+        .footer{
+           
+            padding-top: 20px;
+            border-top: 1px #16928a solid;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+        .mpfooter,.oasisfooter,.mplogo,.co,.followarea,.oasislogo{
+            float: left;
+            width: 50%;
+            position: relative;
+        }
+        .co,.followarea{
+            width: 60%;
+        }
+        .mplogo,.oasislogo{
+            text-align: center;
+            width: 40%;
+        }
+        .followarea{
+            padding-left: 5%;
+            width: 55%;
+        }
+
+        .mpfooter img,.oasislogo img{
+            max-width: 200px;
+           
+        }
+
+        .mpfooter::after,.oasislogo::after{
+            content: "";
+            width: 1px;
+            background-color: #16938B;
+            height: 70px;
+            position: absolute;
+            right: 0;
+            top:25%;
+            transform: translateY(-25%);
+        }
+        .followicon img{
+            max-width: 30px;
+            display: inline-block;
+            margin-bottom: 3px;
+        }
+        .followicon p{
+            display: inline-block;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .followicon div{
+            display: inline-block;
+            padding: 0 1%;
+            margin-top: 10px;
         }
