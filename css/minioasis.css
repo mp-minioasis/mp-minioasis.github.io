@@ -590,6 +590,16 @@
             top: 50%;
             transform: translateY(-50%);
         }
+        .filtermore{
+            color: #fff;
+        }
+        .filtermore:visited{
+            color:#fff;
+        }
+        .filtermore:hover{
+            text-shadow: 0.1em 0.1em 0.3em rgba(141, 214, 216, 0.829);
+            transition: 0.5s;
+        }
         /* section7,9,11 */
         
         .section7,
